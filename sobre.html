@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Sobre a Teks Software | Sistema ERP em Nuvem | Quem Somos</title>
+    <meta name="description" content="Conheça a Teks Software, empresa especializada em sistemas ERP em nuvem. Mais de 500 clientes satisfeitos com soluções completas de gestão para varejo, restaurantes e postos.">
+    <meta name="keywords" content="sobre teks software, empresa sistema erp, história teks, equipe teks software">
+    <meta name="author" content="Teks Software">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tekssoftware.com.br/sobre.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tekssoftware.com.br/sobre.html">
+    <meta property="og:title" content="Sobre a Teks Software | Sistema ERP em Nuvem">
+    <meta property="og:description" content="Conheça a Teks Software, empresa especializada em sistemas ERP em nuvem. Mais de 500 clientes satisfeitos.">
+    <meta property="og:image" content="https://tekssoftware.com.br/siteimgs/equipe-teks1.png">
+    <meta property="og:site_name" content="Teks Software">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://tekssoftware.com.br/sobre.html">
+    <meta name="twitter:title" content="Sobre a Teks Software | Sistema ERP">
+    <meta name="twitter:description" content="Conheça a Teks Software, empresa especializada em sistemas ERP em nuvem.">
+    <meta name="twitter:image" content="https://tekssoftware.com.br/siteimgs/equipe-teks1.png">
+    
+    <link rel="icon" type="image/png" href="siteimgs/siteicon.png">
+    
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Teks Software",
+      "url": "https://tekssoftware.com.br",
+      "logo": "https://tekssoftware.com.br/siteimgs/logoteks.png",
+      "description": "Empresa especializada em sistemas ERP em nuvem para gestão empresarial"
+    }
+    </script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+            color: #1f2937;
+            line-height: 1.6;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+
+        
+        p {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+html.dark-mode body {
+            background-color: #0d1426;
+            color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Banner de Promoção */
+        .banner-promocao {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 300;
+            background: linear-gradient(135deg, #1fee42 0%, #0e9a6c 100%);
+            padding: 12px 16px;
+            text-align: center;
+            margin: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .banner-promocao p {
+            text-align: center;
+            color: white;
+            font-weight: 600;
+            font-size: 12px;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .banner-promocao a {
+            color: white;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 52px;
+            left: 0;
+            right: 0;
+            z-index: 200;
+            padding: 0;
+            transition: all 0.3s ease-in-out;
+        }
+
+        header .container {
+            transition: max-width 0.3s ease-in-out;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: transparent;
+            backdrop-filter: none;
+            border-radius: 32px;
+            box-shadow: none;
+            border: 1px solid transparent;
+            padding: 12px 24px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        header.scrolled .container {
+            max-width: 1200px;
+        }
+
+        header.scrolled .navbar {
+            background-color: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        html.dark-mode header.scrolled .navbar {
+            background-color: rgba(13, 20, 38, 0.85);
+        }
+
+        .nav-logo img {
+            width: 250px;
+            height: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        html.dark-mode .nav-menu a {
+            color: #f9f9f9;
+        }
+
+        .nav-menu a:hover {
+            color: #1fee42;
+        }
+
+        /* Dropdown Menu Styles */
+        .nav-dropdown {
+            position: relative;
+        }
+
+        .nav-dropdown-toggle {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        html.dark-mode .nav-dropdown-toggle {
+            color: #f9f9f9;
+        }
+
+        .nav-dropdown-toggle:hover {
+            color: #1fee42;
+        }
+
+        .nav-dropdown-toggle svg {
+            width: 16px;
+            height: 16px;
+            transition: transform 0.3s ease;
+        }
+
+        .nav-dropdown.active .nav-dropdown-toggle svg {
+            transform: rotate(180deg);
+        }
+
+        .nav-dropdown-menu {
+            position: absolute;
+            top: calc(100% + 12px);
+            left: 0;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+            min-width: 320px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            padding: 8px;
+        }
+
+        html.dark-mode .nav-dropdown-menu {
+            background: #1a1f2e;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-dropdown.active .nav-dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .nav-dropdown-item {
+            display: block;
+            padding: 16px;
+            text-decoration: none;
+            color: #1f2937;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        html.dark-mode .nav-dropdown-item {
+            color: #f9f9f9;
+        }
+
+        .nav-dropdown-item:hover {
+            background: rgba(31, 238, 66, 0.1);
+            color: #1fee42;
+        }
+
+        .nav-dropdown-item-title {
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-dropdown-item-title svg {
+            width: 16px;
+            height: 16px;
+            color: #1fee42;
+        }
+
+        .nav-dropdown-item-desc {
+            font-size: 13px;
+            color: #6b7280;
+            line-height: 1.4;
+        }
+
+        html.dark-mode .nav-dropdown-item-desc {
+            color: #a0a0a0;
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .nav-icon {
+            width: 24px;
+            height: 24px;
+            color: #333;
+            cursor: pointer;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        html.dark-mode .nav-icon {
+            color: #f9f9f9;
+        }
+
+        .nav-icon:hover {
+            color: #1fee42;
+        }
+
+        .icon-sun {
+            display: none;
+        }
+
+        html.dark-mode .icon-moon {
+            display: none;
+        }
+
+        html.dark-mode .icon-sun {
+            display: block;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 32px;
+            font-weight: 500;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-primary {
+            background-color: #1fee42;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #0e9a6c;
+            box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3);
+        }
+
+        /* Main Content */
+        main {
+            margin-top: 140px;
+            padding: 60px 0;
+        }
+
+        /* Team Banner */
+        .team-banner {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto 40px;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-banner img {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            display: block;
+            object-fit: cover;
+        }
+
+        html.dark-mode .team-banner {
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .team-banner {
+                border-radius: 16px;
+                margin-bottom: 32px;
+                max-width: 100%;
+            }
+
+            .team-banner img {
+                max-height: 250px;
+            }
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .page-header-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, rgba(31, 238, 66, 0.1), rgba(14, 154, 108, 0.05));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            border: 2px solid rgba(31, 238, 66, 0.2);
+        }
+
+        .page-header-icon svg {
+            width: 40px;
+            height: 40px;
+            color: #1fee42;
+        }
+
+        .page-header h1 {
+            font-size: 48px;
+            font-weight: 800;
+            color: #1f2937;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        html.dark-mode .page-header h1 {
+            color: #f9f9f9;
+        }
+
+        .page-header p {
+            font-size: 18px;
+            color: #6b7280;
+            max-width: 540px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        html.dark-mode .page-header p {
+            color: #a0a0a0;
+        }
+
+        /* Section Styles */
+        .section {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 48px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        html.dark-mode .section {
+            background: #1a1f2e;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .section-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .download-section .section-title {
+            justify-content: center;
+        }
+
+        html.dark-mode .section-title {
+            color: #f9f9f9;
+        }
+
+        .section-title svg {
+            width: 32px;
+            height: 32px;
+            color: #1fee42;
+        }
+
+        .section-content {
+            font-size: 16px;
+            color: #4b5563;
+            line-height: 1.8;
+        }
+
+        html.dark-mode .section-content {
+            color: #a0a0a0;
+        }
+        
+        .section-content a {
+            color: #1fee42;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .section-content a:hover {
+            color: #0e9a6c;
+            text-decoration: underline;
+        }
+        
+        html.dark-mode .section-content a {
+            color: #1fee42;
+        }
+        
+        html.dark-mode .section-content a:hover {
+            color: #0e9a6c;
+        }
+        
+        /* Garantir que o botão de download tenha texto branco */
+        .section-content .download-button,
+        .section-content .download-button:hover {
+            color: white !important;
+        }
+        
+        html.dark-mode .section-content .download-button,
+        html.dark-mode .section-content .download-button:hover {
+            color: white !important;
+        }
+
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            margin-top: 32px;
+        }
+
+        .about-card {
+            padding: 24px;
+            background: #f8f9fa;
+            border-radius: 16px;
+            border-left: 4px solid #1fee42;
+        }
+
+        html.dark-mode .about-card {
+            background: #0f1419;
+        }
+
+        .about-card h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 12px;
+        }
+
+        html.dark-mode .about-card h3 {
+            color: #f9f9f9;
+        }
+
+        .about-card p {
+            font-size: 15px;
+            color: #6b7280;
+            line-height: 1.6;
+        }
+
+        html.dark-mode .about-card p {
+            color: #a0a0a0;
+        }
+
+        /* Contact Cards */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 32px;
+        }
+
+        .contact-card {
+            padding: 32px;
+            background: linear-gradient(135deg, rgba(31, 238, 66, 0.05) 0%, rgba(14, 154, 108, 0.02) 100%);
+            border-radius: 16px;
+            border: 1px solid rgba(31, 238, 66, 0.2);
+            text-align: center;
+        }
+
+        html.dark-mode .contact-card {
+            background: linear-gradient(135deg, rgba(31, 238, 66, 0.1) 0%, rgba(14, 154, 108, 0.05) 100%);
+            border-color: rgba(31, 238, 66, 0.3);
+        }
+
+        .contact-card-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            background: rgba(31, 238, 66, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact-card-icon svg {
+            width: 32px;
+            height: 32px;
+            color: #1fee42;
+        }
+
+        .contact-card h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 12px;
+        }
+
+        html.dark-mode .contact-card h3 {
+            color: #f9f9f9;
+        }
+
+        .contact-card p {
+            font-size: 15px;
+            color: #6b7280;
+            margin-bottom: 16px;
+        }
+
+        html.dark-mode .contact-card p {
+            color: #a0a0a0;
+        }
+
+        .contact-info {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1fee42;
+            margin-top: 8px;
+        }
+
+        .contact-link {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 20px;
+            background: #1fee42;
+            color: white;
+            text-decoration: none;
+            border-radius: 32px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .contact-link:hover {
+            background: #0e9a6c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(31, 238, 66, 0.3);
+        }
+
+        /* Download Section */
+        .download-section {
+            text-align: center;
+            padding: 60px 48px;
+        }
+
+        .download-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 20px 40px;
+            background: linear-gradient(135deg, #1fee42 0%, #0e9a6c 100%);
+            color: white !important;
+            text-decoration: none;
+            border-radius: 32px;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 32px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(31, 238, 66, 0.3);
+        }
+        
+        .download-button,
+        .download-button * {
+            color: white !important;
+        }
+
+        .download-button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(31, 238, 66, 0.4);
+        }
+
+        .download-button svg {
+            width: 24px;
+            height: 24px;
+            color: white;
+            stroke: white;
+        }
+
+        /* Installation Guide */
+        .installation-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            user-select: none;
+            padding: 8px 0;
+            transition: all 0.3s ease;
+        }
+
+        .installation-header:hover {
+            opacity: 0.8;
+        }
+
+        .installation-header .section-title {
+            margin-bottom: 0;
+            flex: 1;
+        }
+
+        .installation-chevron {
+            width: 24px;
+            height: 24px;
+            color: #1fee42;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 16px;
+        }
+
+        .installation-header.open .installation-chevron {
+            transform: rotate(180deg);
+        }
+
+        .installation-steps {
+            margin-top: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, margin-top 0.4s ease;
+        }
+
+        .installation-header.open + .installation-steps {
+            max-height: 10000px;
+            margin-top: 32px;
+        }
+
+        .step {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 40px;
+            padding: 32px;
+            background: #f8f9fa;
+            border-radius: 16px;
+            align-items: flex-start;
+        }
+
+        html.dark-mode .step {
+            background: #0f1419;
+        }
+
+        .step-number {
+            flex-shrink: 0;
+            width: 48px;
+            height: 48px;
+            background: #1fee42;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .step-content {
+            flex: 1;
+        }
+
+        .step-content h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 12px;
+        }
+
+        html.dark-mode .step-content h3 {
+            color: #f9f9f9;
+        }
+
+        .step-content p {
+            font-size: 16px;
+            color: #6b7280;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        html.dark-mode .step-content p {
+            color: #a0a0a0;
+        }
+
+        .step-image {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 12px;
+            margin-top: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        html.dark-mode .step-image {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .step-placeholder {
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            background: #e5e7eb;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9ca3af;
+            font-size: 14px;
+            margin-top: 16px;
+        }
+
+        html.dark-mode .step-placeholder {
+            background: #1a1f2e;
+            color: #6b7280;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #050810;
+            padding: 80px 0 40px;
+            position: relative;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+
+        .footer-brand img {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .footer-brand p {
+            color: #a0a0a0;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .footer-app-stores {
+            display: flex;
+            gap: 15px;
+        }
+
+        .app-store-btn {
+            width: 140px;
+            height: 45px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .app-store-btn:hover {
+            background: rgba(30, 238, 66, 0.1);
+            border-color: rgba(30, 238, 66, 0.3);
+        }
+
+        .footer-column h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #f9f9f9;
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: #a0a0a0;
+            text-decoration: none;
+            font-size: 15px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #1fee42;
+        }
+
+        .footer-social h4 {
+            margin-bottom: 15px;
+        }
+
+        .footer-social p {
+            color: #a0a0a0;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #a0a0a0;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .social-icon:hover {
+            background: rgba(30, 238, 66, 0.1);
+            border-color: rgba(30, 238, 66, 0.3);
+            color: #1fee42;
+        }
+
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            color: #a0a0a0;
+            font-size: 14px;
+        }
+        
+        .footer-bottom p {
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                justify-content: center;
+                padding: 12px 16px;
+                width: 100%;
+            }
+
+            .nav-logo {
+                margin: 0 auto;
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .nav-logo img {
+                width: 220px;
+                max-width: 100%;
+                height: auto;
+            }
+
+            .nav-menu {
+                display: none;
+            }
+
+            .nav-actions {
+                display: none;
+            }
+
+            header {
+                top: 52px;
+                left: 0;
+                right: 0;
+                width: 100%;
+                padding: 0;
+                max-width: 100vw;
+            }
+
+            header .container {
+                max-width: 100% !important;
+                padding: 0 !important;
+                width: 100% !important;
+                box-sizing: border-box;
+                margin: 0 !important;
+            }
+
+            .navbar {
+                width: 100%;
+                margin: 0;
+                padding: 12px 16px;
+            }
+
+            .banner-promocao {
+                font-size: 14px !important;
+                padding: 14px 16px !important;
+                left: 0 !important;
+                right: 0 !important;
+                width: 100% !important;
+                max-width: 100vw !important;
+            }
+
+            .banner-promocao p {
+                font-size: 14px !important;
+            }
+
+            main {
+                margin-top: 120px;
+                padding: 40px 0;
+            }
+
+            .page-header h1 {
+                font-size: 32px;
+            }
+
+            .section {
+                padding: 32px 24px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            .about-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .step {
+                flex-direction: column;
+                padding: 24px;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .banner-promocao {
+                font-size: 12px !important;
+                padding: 12px 14px !important;
+            }
+
+            .banner-promocao p {
+                font-size: 12px !important;
+            }
+
+            .nav-logo img {
+                width: 200px;
+            }
+        }
+    
+        /* Global mobile title sizing */
+        @media (max-width: 768px) {
+            h2,
+            .section-title,
+            .article-title,
+            .services-header h2,
+            .clients-title,
+            .testimonials-header h2,
+            .support-text h2,
+            .cta-section h2 {
+                font-size: 32px;
+                line-height: 1.25;
+            }
+        }
+
+</style>
+</head>
+<body>
+    <!-- Banner de Promoção -->
+    <div class="banner-promocao" style="background: linear-gradient(135deg, #1fee42 0%, #0e9a6c 100%); padding: 12px 16px; text-align: center; position: fixed; top: 0; left: 0; right: 0; z-index: 300; margin: 0; width: 100%; box-sizing: border-box; max-width: 100vw; margin-left: 0; margin-right: 0;">
+        <p style="color: white; font-weight: 600; font-size: 12px; margin: 0; line-height: 1.4;">
+            🎉 Black Friday: 35% OFF nos 3 primeiros meses → 
+            <a href="https://wa.me/558898400307?text=Olá,%20vim%20pelo%20site%20da%20Teks%20Software%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20promoção%20Black%20Friday." target="_blank" style="color: white; text-decoration: underline; font-weight: 700;">Aproveite Agora</a>
+        </p>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="nav-logo">
+                    <a href="index.html"><img src="siteimgs/logoteks.png" alt="Teks Software"></a>
+                </div>
+                <div class="nav-menu">
+                    <a href="index.html#services">Soluções</a>
+                    <a href="seja-uma-revenda.html">Revenda</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="sobre.html">Sobre</a>
+                </div>
+                <div class="nav-actions">
+                    <div id="theme-toggle-btn" class="nav-icon">
+                        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                        </svg>
+                        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M12 2v2"></path><path d="M12 20v2"></path>
+                            <path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path>
+                            <path d="M2 12h2"></path><path d="M20 12h2"></path>
+                            <path d="m4.93 19.07 1.41-1.41"></path><path d="m17.66 6.34 1.41-1.41"></path>
+                        </svg>
+                    </div>
+                    <a href="#" class="btn btn-primary">Solicitar Demonstração</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Team Banner -->
+            <div class="team-banner">
+                <img src="acessoinstalacao/bannnerajuda.png" alt="bannner ajuda da Teks Software">
+            </div>
+
+            <!-- Page Header -->
+            <div class="page-header">
+                <div class="page-header-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm11.378-3.917c-.89-.777-2.366-.777-3.255 0a.75.75 0 01-.988-1.129c1.454-1.272 3.776-1.272 5.23 0 1.513 1.324 1.513 3.518 0 4.842a3.75 3.75 0 01-.837.552c-.676.328-1.028.774-1.028 1.152v.75a.75.75 0 01-1.5 0v-.75c0-1.279 1.06-2.107 1.875-2.502.182-.088.351-.199.503-.331.83-.727.83-1.857 0-2.584zM12 18a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <h1>Sobre a Teks Software</h1>
+                <p>Conheça mais sobre nossa empresa, nossa missão e como podemos ajudar seu negócio a crescer</p>
+            </div>
+
+            <!-- About Teks Software -->
+            <section class="section">
+                <h2 class="section-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                        <path d="M2 17l10 5 10-5"></path>
+                        <path d="M2 12l10 5 10-5"></path>
+                    </svg>
+                    Sobre a Teks Software
+                </h2>
+                <div class="section-content">
+                    <p>
+                        A Teks Software é uma empresa especializada em soluções de gestão empresarial (ERP) 
+                        para diferentes segmentos do mercado. Com mais de 4 anos de experiência, oferecemos 
+                        sistemas completos e integrados que ajudam empresas a otimizar seus processos, 
+                        aumentar a produtividade e crescer de forma sustentável. Fazemos parte do <strong>Grupo Solutek</strong>, 
+                        um grupo empresarial comprometido em oferecer soluções tecnológicas inovadoras para o mercado brasileiro.
+                    </p>
+                    <p style="margin-top: 20px;">
+                        <strong>Empresas do Grupo Solutek:</strong> 
+                        <a href="https://www.arsolutek.com.br" target="_blank">Solutek</a>, 
+                        <a href="https://tekssoftware.com.br" target="_blank">Teks Software</a> e 
+                        <a href="https://tekspay.com.br" target="_blank">Teks Pay</a>.
+                    </p>
+                    <div class="about-grid">
+                        <div class="about-card">
+                            <h3>Nossa Missão</h3>
+                            <p>
+                                Simplificar a gestão empresarial através de tecnologia inovadora, 
+                                oferecendo soluções acessíveis e eficientes para empresas de todos os tamanhos.
+                            </p>
+                        </div>
+                        <div class="about-card">
+                            <h3>Nossos Valores</h3>
+                            <p>
+                                Comprometimento com a excelência, inovação constante, transparência 
+                                nas relações e foco total na satisfação do cliente.
+                            </p>
+                        </div>
+                        <div class="about-card">
+                            <h3>Nossa Visão</h3>
+                            <p>
+                                Ser referência nacional em soluções de gestão empresarial, 
+                                reconhecida pela qualidade, inovação e suporte excepcional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="section">
+                <h2 class="section-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    Entre em Contato
+                </h2>
+                <div class="contact-grid">
+                    <!-- Suporte Técnico -->
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                        </div>
+                        <h3>Suporte Técnico</h3>
+                        <p>Atendimento 24 horas por dia, 7 dias por semana</p>
+                        <div class="contact-info">
+                            <p>WhatsApp: +55 85 8196-0909</p>
+                        </div>
+                        <a href="https://wa.me/558581960909?text=Olá,%20vim%20pelo%20site%20da%20Teks%20Software%20e%20gostaria%20de%20falar%20com%20o%20suporte%20técnico." class="contact-link" target="_blank">
+                            Falar com Suporte
+                        </a>
+                    </div>
+
+                    <!-- Equipe Comercial -->
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h3>Equipe Comercial</h3>
+                        <p>Dúvidas sobre planos, preços e demonstrações</p>
+                        <div class="contact-info">
+                            <p>WhatsApp: +55 88 9840-0307</p>
+                        </div>
+                        <a href="https://wa.me/558898400307?text=Olá,%20vim%20pelo%20site%20da%20Teks%20Software%20e%20gostaria%20de%20falar%20com%20a%20equipe%20comercial." class="contact-link" target="_blank">
+                            Falar com Comercial
+                        </a>
+                    </div>
+
+                    <!-- Financeiro -->
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <h3>Financeiro da Teks Software</h3>
+                        <p>Outras informações e solicitações</p>
+                        <div class="contact-info">
+                            <p>WhatsApp: +55 85 8117-9288</p>
+                        </div>
+                        <a href="https://wa.me/558581179288?text=Olá,%20vim%20pelo%20site%20da%20Teks%20Software%20e%20gostaria%20de%20falar%20com%20o%20financeiro." class="contact-link" target="_blank">
+                            Falar com Financeiro
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- UltraViewer Download -->
+            <section class="section download-section">
+                <h2 class="section-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Download UltraViewer
+                </h2>
+                <div class="section-content">
+                    <p>
+                        O UltraViewer é uma ferramenta de acesso remoto que permite nossa equipe de suporte 
+                        técnico acessar seu computador de forma segura para resolver problemas e realizar 
+                        configurações. Baixe e instale o UltraViewer para receber suporte remoto.
+                    </p>
+                    <a href="acessoinstalacao/UltraViewer - acesso teks.exe" class="download-button" download>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        Baixar UltraViewer
+                    </a>
+                    <p style="font-size: 14px; color: #6b7280; margin-top: 16px; text-align: center;">
+                        O download começará automaticamente ao clicar no botão acima.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Installation Guide -->
+            <section class="section">
+                <div class="installation-header" id="installation-header">
+                    <h2 class="section-title" style="cursor: pointer; user-select: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                        Passo a Passo de Instalação
+                    </h2>
+                    <svg class="installation-chevron" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+                <div class="installation-steps" id="installation-steps">
+                    <!-- Step 1 -->
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Baixar o UltraViewer</h3>
+                            <p>
+                                Clique no botão "Fazer Download" acima para baixar o arquivo de instalação do UltraViewer. 
+                                O arquivo "UltraViewer - acesso teks.exe" será salvo na pasta de Downloads do seu computador.
+                            </p>
+                            <img src="acessoinstalacao/passo1.png" alt="Passo 1 - Download do UltraViewer" class="step-image">
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Executar o Instalador</h3>
+                            <p>
+                                Localize o arquivo "UltraViewer - acesso teks.exe" na pasta de Downloads e dê um duplo clique 
+                                para executar. Se aparecer uma mensagem de segurança do Windows, clique em "Executar" 
+                                ou "Permitir" para continuar com a instalação.
+                            </p>
+                            <img src="acessoinstalacao/passo2.png" alt="Passo 2 - Executar o instalador" class="step-image">
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Seguir o Assistente de Instalação</h3>
+                            <p>
+                                O assistente de instalação será aberto automaticamente. Clique em "Next" (Próximo) para continuar. 
+                                Aceite os termos de uso marcando a opção correspondente e escolha o local de instalação 
+                                (recomendamos deixar o padrão). Clique em "Install" (Instalar) para iniciar a instalação.
+                            </p>
+                            <img src="acessoinstalacao/passo3.png" alt="Passo 3 - Assistente de instalação" class="step-image">
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Aguardar a Instalação</h3>
+                            <p>
+                                Aguarde alguns segundos enquanto o UltraViewer é instalado no seu computador. 
+                                Uma barra de progresso mostrará o andamento da instalação. Não feche a janela durante este processo.
+                            </p>
+                            <img src="acessoinstalacao/passo4.png" alt="Passo 4 - Aguardar instalação" class="step-image">
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>Finalizar a Instalação</h3>
+                            <p>
+                                Quando a instalação for concluída, clique em "Finish" (Concluir) para finalizar. O UltraViewer 
+                                será aberto automaticamente. Você verá uma tela com um ID e senha temporários que serão 
+                                utilizados para o acesso remoto.
+                            </p>
+                            <img src="acessoinstalacao/passo5.png" alt="Passo 5 - Finalizar instalação" class="step-image">
+                        </div>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="step">
+                        <div class="step-number">6</div>
+                        <div class="step-content">
+                            <h3>Compartilhar com o Suporte</h3>
+                            <p>
+                                Envie o ID e a senha exibidos na tela do UltraViewer para nossa equipe de suporte 
+                                via WhatsApp. Nossa equipe usará essas informações para acessar seu 
+                                computador remotamente e ajudá-lo com a instalação ou configuração do sistema.
+                            </p>
+                            <img src="acessoinstalacao/passo6.png" alt="Passo 6 - Compartilhar com suporte" class="step-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="siteimgs/logoteks.png" alt="Teks Software">
+                    <p>
+                        Soluções completas de gestão para seu negócio. 
+                        Tecnologia de ponta, suporte especializado e resultados que fazem a diferença.
+                    </p>
+                    <p style="margin-top: 20px; color: #a0a0a0; font-size: 14px; line-height: 1.6;">
+                        Av. Plácido Castelo, 1633 - Sala 101 - Centro<br>
+                        Quixadá, Ceará - CEP: 63900-069
+                    </p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Outras Páginas</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="seja-uma-revenda.html">Revenda</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Seções</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#services">Serviços</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                        <li><a href="index.html#integracoes">Integrações</a></li>
+                        <li><a href="links.html">Links</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column footer-social">
+                    <h4>Redes Sociais</h4>
+                    <p>Nossa equipe de suporte e vendas está disponível de 7h às 22h, todos os dias, para responder suas dúvidas.</p>
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/@tekssoftware3523" target="_blank" class="social-icon" aria-label="YouTube">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/558898400307" target="_blank" class="social-icon" aria-label="WhatsApp">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/tekssoftware" target="_blank" class="social-icon" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/teks-software/?viewAsMember=true" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Teks Software – Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Botão WhatsApp Fixo -->
+    <a href="https://wa.me/558898400307?text=Olá,%20vim%20pelo%20site%20da%20Teks%20Software%20e%20quero%20ver%20o%20sistema%20funcionando%20agora%20(2%20minutos)." 
+       target="_blank" 
+       style="position: fixed; bottom: 24px; right: 24px; width: 64px; height: 64px; background: linear-gradient(135deg, #25D366, #128C7E); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4); z-index: 1000; transition: all 0.3s ease; animation: pulse-whatsapp 2s ease-in-out infinite;"
+       title="Quero ver o sistema funcionando agora (2 minutos)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+    
+    <style>
+        @keyframes pulse-whatsapp {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        a[href*="wa.me"]:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 32px rgba(37, 211, 102, 0.5);
+        }
+    </style>
+    
+    <script>
+        (function() {
+            try {
+                const theme = localStorage.getItem('theme');
+                if (theme === 'dark') {
+                    document.documentElement.classList.add('dark-mode');
+                }
+            } catch (e) {
+                console.error("Não foi possível carregar o tema do localStorage", e);
+            }
+        })();
+    </script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            // --- Lógica do Menu com Scroll ---
+            const header = document.querySelector('header');
+            if (header) { 
+                window.addEventListener('scroll', function() {
+                    if (window.scrollY > 50) {
+                        header.classList.add('scrolled');
+                    } else {
+                        header.classList.remove('scrolled');
+                    }
+                });
+            }
+
+            // --- Lógica do Dark Mode ---
+            const themeToggleBtn = document.getElementById('theme-toggle-btn');
+            
+            if (themeToggleBtn) { 
+                themeToggleBtn.addEventListener('click', function() {
+                    document.documentElement.classList.toggle('dark-mode');
+                    
+                    if (document.documentElement.classList.contains('dark-mode')) {
+                        localStorage.setItem('theme', 'dark');
+                    } else {
+                        localStorage.setItem('theme', 'light');
+                    }
+                });
+            }
+
+            // --- Lógica do Accordion do Passo a Passo ---
+            const installationHeader = document.getElementById('installation-header');
+            
+            if (installationHeader) {
+                installationHeader.addEventListener('click', function() {
+                    installationHeader.classList.toggle('open');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+

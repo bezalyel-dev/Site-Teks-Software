@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!-- 
+    ⚠️ PORTFÓLIO: Versão simplificada para demonstração
+    Site oficial: https://tekssoftware.com.br
+    Algumas funcionalidades críticas foram removidas ou simplificadas.
+    © 2025 Teks Software - Todos os direitos reservados.
+-->
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -1509,6 +1515,9 @@ html.dark-mode body {
                 return false;
             }
 
+            // ⚠️ PORTFÓLIO: Validações e sanitização de dados foram simplificadas
+            // Versão de produção possui validações avançadas de email, telefone e CNPJ
+            
             // Montar mensagem para WhatsApp
             let mensagem = `Olá! Vim pelo site da Teks Software e gostaria de me tornar uma revenda.\n\n` +
                 `*Nome do Contato:* ${nomeContato}\n` +
@@ -1517,6 +1526,7 @@ html.dark-mode body {
                 `*Nome da Empresa:* ${nomeEmpresa}\n`;
             
             // Adicionar CNPJ apenas se preenchido
+            // ⚠️ Nota: Validação de CNPJ foi simplificada para portfólio
             if (cnpj && cnpj.trim() !== '') {
                 mensagem += `*CNPJ da revenda:* ${cnpj}\n`;
             }
@@ -1528,7 +1538,7 @@ html.dark-mode body {
                 `*Cidade:* ${cidade}\n\n` +
                 `Gostaria de saber mais sobre o programa de revendas!`;
 
-            // Abrir WhatsApp
+            // ⚠️ Nota: URL do WhatsApp - versão de produção usa sistema de rastreamento e analytics
             const url = `https://wa.me/558898393662?text=${encodeURIComponent(mensagem)}`;
             window.open(url, '_blank');
 

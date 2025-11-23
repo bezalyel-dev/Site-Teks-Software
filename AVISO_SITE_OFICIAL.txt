@@ -1,0 +1,27 @@
+⚠️ AVISO IMPORTANTE ⚠️
+
+Este é um repositório de PORTFÓLIO - versão simplificada para demonstração.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 SITE OFICIAL DA TEKS SOFTWARE:
+
+👉 https://tekssoftware.com.br 👈
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Este código foi modificado para fins de portfólio:
+- Algumas funcionalidades críticas foram removidas
+- Validações avançadas foram simplificadas
+- Código sensível foi ofuscado ou removido
+
+NÃO é permitido:
+❌ Clonar ou copiar este site para uso comercial
+❌ Remover avisos de copyright
+❌ Usar imagens ou conteúdo sem autorização
+❌ Fazer deploy como se fosse o site oficial
+
+© 2025 Teks Software - Todos os direitos reservados.
+
+Para mais informações, visite: https://tekssoftware.com.br
+

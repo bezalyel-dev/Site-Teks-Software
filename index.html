@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!-- 
+    ⚠️ AVISO: Este é um código de portfólio - versão simplificada
+    Site oficial: https://tekssoftware.com.br
+    Algumas funcionalidades críticas foram removidas ou simplificadas para fins de portfólio.
+    © 2025 Teks Software - Todos os direitos reservados.
+-->
 <html lang="pt-BR"> 
 <head>
     <meta charset="UTF-8">
@@ -5718,6 +5724,11 @@
     </style>
     
     <script>
+        // ⚠️ PORTFÓLIO: Versão simplificada para demonstração
+        // Site oficial: https://tekssoftware.com.br
+        // Algumas funcionalidades críticas foram removidas ou simplificadas
+        // © 2025 Teks Software - Todos os direitos reservados
+        
         console.log("Site Teks Software carregado com sucesso!");
 
         // Fechar dropdown ao clicar fora
@@ -6428,15 +6439,18 @@
             });
         }
 
-        // Enviar formulário via WhatsApp
+        // ⚠️ PORTFÓLIO: Função simplificada - validações críticas removidas
+        // Versão de produção possui validações avançadas e sanitização de dados
         function enviarPopupForm(event) {
             event.preventDefault();
             
-            const nomePessoa = document.getElementById('popupNomePessoa').value;
-            const nomeEmpresa = document.getElementById('popupNomeEmpresa').value;
-            const segmento = document.getElementById('popupSegmento').value;
-            const cidade = document.getElementById('popupCidade').value;
+            // Validação básica (versão de produção tem validações mais robustas)
+            const nomePessoa = document.getElementById('popupNomePessoa')?.value || '';
+            const nomeEmpresa = document.getElementById('popupNomeEmpresa')?.value || '';
+            const segmento = document.getElementById('popupSegmento')?.value || '';
+            const cidade = document.getElementById('popupCidade')?.value || '';
             
+            // ⚠️ Nota: Validações de segurança e sanitização foram removidas para portfólio
             const mensagem = `Olá! Vim pelo site da Teks Software e gostaria de agendar uma apresentação do sistema.\n\n` +
                 `*Nome:* ${nomePessoa}\n` +
                 `*Nome da empresa:* ${nomeEmpresa}\n` +
@@ -6444,11 +6458,12 @@
                 `*Cidade:* ${cidade}\n\n` +
                 `Gostaria de agendar uma demonstração personalizada!`;
             
+            // ⚠️ Nota: URL do WhatsApp - versão de produção usa sistema de rastreamento
             const url = `https://wa.me/558898400307?text=${encodeURIComponent(mensagem)}`;
             window.open(url, '_blank');
             
             // Fechar popup após enviar
-            popupOverlay.classList.remove('active');
+            if (popupOverlay) popupOverlay.classList.remove('active');
             
             return false;
         }

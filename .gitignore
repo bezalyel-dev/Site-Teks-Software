@@ -25,3 +25,16 @@ desktop.ini
 ehthumbs.db
 Desktop.ini
 
+# Executáveis e binários (não devem estar em repositórios públicos)
+*.exe
+*.dll
+*.msi
+*.app
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# Arquivos de instalação e acesso remoto
+acessoinstalacao/*.exe
+

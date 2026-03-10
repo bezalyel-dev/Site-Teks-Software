@@ -21,11 +21,11 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-181717?logo=github&logoColor=white)
 
-### 📸 Capturas de tela
 
-<img width="1366" height="8485" alt="image" src="https://github.com/user-attachments/assets/0a71bb43-d484-429e-829f-3de35626e288" />
-<img width="1366" height="3370" alt="image" src="https://github.com/user-attachments/assets/4e81cecb-c79d-43e6-9bbc-841ee255cb11" />
+## 📸 Capturas de tela
 
+#<img width="1366" height="2653" alt="TEKS1" src="https://github.com/user-attachments/assets/f5837d17-9b6c-4097-93bb-4246e6abb055" />
+![Uploading TEKS1.png…]()
 
 ### 🎯 Objetivo do projeto
 Demonstrar minhas habilidades em:

@@ -21,15 +21,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-181717?logo=github&logoColor=white)
 
-
-## 📸 Capturas de tela
-
-<img width="1366" height="2653" alt="TEKS1" src="https://github.com/user-attachments/assets/f5837d17-9b6c-4097-93bb-4246e6abb055" />
-<img width="1366" height="2223" alt="TEKS2" src="https://github.com/user-attachments/assets/84bad8cb-9b06-433b-9f1f-029be9fedd81" />
-<img width="1366" height="1951" alt="TEKS3" src="https://github.com/user-attachments/assets/f363ce8f-1927-49eb-89ad-9ee2954a83a0" />
-<img width="1366" height="1477" alt="TEKS4" src="https://github.com/user-attachments/assets/e256655e-0715-47a7-908e-5e7570b2b495" />
-
- 🎯 Objetivo do projeto
+🎯 Objetivo do projeto
 Demonstrar minhas habilidades em:
 - Desenvolvimento front-end completo
 - Design responsivo e acessível
@@ -38,6 +30,14 @@ Demonstrar minhas habilidades em:
 
 **Quer ver mais detalhes da minha trajetória?**  
 👉 [Acessar meu LinkedIn](https://br.linkedin.com/in/bezalyelsilva)
+
+
+## 📸 Capturas de tela
+
+<img width="1366" height="2653" alt="TEKS1" src="https://github.com/user-attachments/assets/f5837d17-9b6c-4097-93bb-4246e6abb055" />
+<img width="1366" height="2223" alt="TEKS2" src="https://github.com/user-attachments/assets/84bad8cb-9b06-433b-9f1f-029be9fedd81" />
+<img width="1366" height="1951" alt="TEKS3" src="https://github.com/user-attachments/assets/f363ce8f-1927-49eb-89ad-9ee2954a83a0" />
+<img width="1366" height="1477" alt="TEKS4" src="https://github.com/user-attachments/assets/e256655e-0715-47a7-908e-5e7570b2b495" />
 
 ---
 
